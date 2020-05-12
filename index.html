@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>LandingPage</title>
+    <link rel="stylesheet" href="output/css/main.min.css">
+    <script src="output/js/main.min.js"></script>
+</head>
+<body>
+<header>
+    <nav class="navigation">
+        <ul class="menu">
+            <li class="menu__item"><a class="menu__link" href="#">HOME</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">ABOUT ME</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">PORTFOLIO</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+    <nav class="navigation_mobile" role="navigation_mobile">
+        <div id="menuToggle">
+            <div class="menuToggle__title">MENU</div>
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Info</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+        </div>
+    </nav>
+    <div class="scrollDown">
+        <div class="scrollDown__text">SCROLL DOWN TO SEE MORE</div>
+        <img src="src/img/arrow.png" class="scrollDown__arrow">
+    </div>
+</header>
+<section class="about">
+    <nav id="navigation_bottom" class="navigation navigation_bottom">
+        <div class="menu menu_bottom">
+            <li class="menu__item_bottom">
+                <a class="menu__link_bottom" href="#">HOME</a>
+            </li>
+            <li class="menu__item_bottom">
+                <a class="menu__link_bottom" href="#">ABOUT ME</a>
+            </li>
+            <li class="menu__item_bottom">
+                <a class="menu__link_bottom" href="#">PORTFOLIO</a>
+            </li>
+            <li class="menu__item_bottom">
+                <a class="menu__link_bottom" href="#">CONTACT</a>
+            </li>
+        </div>
+    </nav>
+    <div class="about__container">
+        <div class="photo-container">
+        <img class="photo" src="src/img/photo.jpg" alt="photo">
+        </div>
+        <div class="description">
+            <h2 class="description__title">ABOUT ME</h2>
+            <p class="description__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam
+                consequuntur deserunt dolores dolorum ex expedita incidunt, laborum nostrum numquam perferendis
+                possimus,
+            </p>
+            <p class="description__text">
+                Duasi, qui tempora tenetur veniam vitae. Accusamus, aliquid.
+            </p>
+            <div class="description__signature">Jason Wood</div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
