@@ -206,6 +206,7 @@ header {
 
 .about__container {
     max-width: 1576px;
+    width: 100%;
     height: auto;
     display: flex;
     justify-content: space-around;
@@ -220,7 +221,7 @@ header {
     height: auto;
 }
 
-.about__container > .description {
+.about__container > .description-container {
     width: 47%;
     color: #202020;
 }
@@ -258,7 +259,7 @@ header {
         flex-wrap: wrap;
     }
 
-    .photo-container, .description {
+    .photo-container, .description-container {
         flex: 1 0 100%;
     }
 
